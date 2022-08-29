@@ -1,4 +1,5 @@
 <script setup>
+import lzgMain from './lzgMain.vue'
 import { onMounted} from 'vue'
 onMounted(()=>{
   console.log('layout')
@@ -6,9 +7,8 @@ onMounted(()=>{
 </script>
 
 <template>
- <section>
-    <router-view></router-view>
- </section>
+<div>Hello world</div>
+ <lzg-main></lzg-main>
 </template>
 
 <style scoped>
